@@ -1,0 +1,23 @@
+extends layout
+
+block content
+   button#get-button Read
+   form#create-form
+      input(type="text" id="create-name")
+      input(type="text" id="create-surname")
+      input(type="text" id="create-age")
+      input(type="text" id="create-mail")
+      button Create
+   hr
+   table
+      thead
+         tr
+           th Id
+           th Name
+           th Surname
+           th Age
+           th Mail
+           th Action
+      tbody
+   script(src="/javascripts/jquery.js") 
+   script(src="/javascripts/script.js")       
